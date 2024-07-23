@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__", "__", "{CFBEE6C3-9A2B-46E7-A973-50DE560831C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Course", "Course", "{9292A609-0C29-4981-8119-75557241D003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Api", "src\Course\Course.Api\Course.Api.csproj", "{43FF602F-4ED6-433D-AF35-0FB4E8C368D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlock", "BuildingBlock", "{16191AD7-22E5-43F6-B37C-796712B4D520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRS.Infrastructure", "src\BuildingBlock\SRS.Infrastructure\SRS.Infrastructure.csproj", "{885A3724-59CD-410D-B6AC-A2500E177127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enrolment", "Enrolment", "{A635F21A-D011-4B5F-9B8A-5404920E26F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enrolment.Api", "src\Enrolment\Enrolment.Api\Enrolment.Api.csproj", "{7A9A317C-43BA-420A-B8B8-011354BEC6C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{86C353C2-FEE9-48A2-A39C-FB3BFE4EEEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Api", "src\IdentityServer\IdentityServer.Api\IdentityServer.Api.csproj", "{2306CDAE-93B9-4F58-9E71-B520038F2EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{585FBC32-4254-4ED5-986D-4D5F08863013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43FF602F-4ED6-433D-AF35-0FB4E8C368D0} = {9292A609-0C29-4981-8119-75557241D003}
+		{885A3724-59CD-410D-B6AC-A2500E177127} = {16191AD7-22E5-43F6-B37C-796712B4D520}
+		{7A9A317C-43BA-420A-B8B8-011354BEC6C2} = {A635F21A-D011-4B5F-9B8A-5404920E26F3}
+		{2306CDAE-93B9-4F58-9E71-B520038F2EE1} = {86C353C2-FEE9-48A2-A39C-FB3BFE4EEEAB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43FF602F-4ED6-433D-AF35-0FB4E8C368D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FF602F-4ED6-433D-AF35-0FB4E8C368D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FF602F-4ED6-433D-AF35-0FB4E8C368D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FF602F-4ED6-433D-AF35-0FB4E8C368D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885A3724-59CD-410D-B6AC-A2500E177127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885A3724-59CD-410D-B6AC-A2500E177127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885A3724-59CD-410D-B6AC-A2500E177127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885A3724-59CD-410D-B6AC-A2500E177127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9A317C-43BA-420A-B8B8-011354BEC6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9A317C-43BA-420A-B8B8-011354BEC6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9A317C-43BA-420A-B8B8-011354BEC6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9A317C-43BA-420A-B8B8-011354BEC6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2306CDAE-93B9-4F58-9E71-B520038F2EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2306CDAE-93B9-4F58-9E71-B520038F2EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2306CDAE-93B9-4F58-9E71-B520038F2EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2306CDAE-93B9-4F58-9E71-B520038F2EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

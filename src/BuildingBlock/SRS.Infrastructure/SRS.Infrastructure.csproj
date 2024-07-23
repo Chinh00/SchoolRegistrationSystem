@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Bus\Dapr\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapr.AspNetCore" Version="1.13.1" />
+      <PackageReference Include="Dapr.Client" Version="1.13.1" />
+      <PackageReference Include="Serilog" Version="4.0.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
